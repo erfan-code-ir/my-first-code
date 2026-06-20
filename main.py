@@ -10,8 +10,8 @@ def validate_phone(number):
       if len(number)==length and number.startswith(prefix):
         return True
       return False
-print("Hello! Welcome to the Paython Validator!")
-user_email = input()
-user_phone = input()
+print("Hello! Welcome to the Python Validator!")
+user_email = input("Enter your email:")
+user_phone = input("Enter your phone number:")
 print(f"{validate_email(user_email)}")
 print(f"{validate_phone(user_phone)}")
